@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#f4f4f4"/>
+
+  <text x="800" y="90" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="52" font-weight="700" fill="#1f1f1f">ON-PREM</text>
+  <text x="800" y="90" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="52" font-weight="700" fill="#1f1f1f" transform="translate(370 0)">VIRTUALIZATION</text>
+  <text x="1210" y="90" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="52" font-weight="700" fill="#1f1f1f">CLOUD</text>
+  <text x="1460" y="90" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="52" font-weight="700" fill="#1f1f1f">CONTAINERS</text>
+
+  <g stroke="#1f1f1f" stroke-width="5" fill="none">
+    <rect x="120" y="170" width="240" height="430"/>
+    <rect x="530" y="170" width="350" height="430"/>
+    <rect x="1040" y="170" width="260" height="430"/>
+    <rect x="1380" y="170" width="180" height="430"/>
+  </g>
+
+  <g fill="#1f1f1f" font-family="Verdana, Arial, sans-serif" font-size="34" font-weight="600">
+    <text x="240" y="410" text-anchor="middle">APPLICATION</text>
+  </g>
+
+  <g fill="#1f1f1f" font-family="Verdana, Arial, sans-serif" font-size="25" font-weight="700">
+    <text x="705" y="320" text-anchor="middle">2 CPU</text>
+    <text x="705" y="355" text-anchor="middle">2 RAM</text>
+    <text x="835" y="320" text-anchor="middle">2 CPU</text>
+    <text x="835" y="355" text-anchor="middle">2 RAM</text>
+    <text x="705" y="470" text-anchor="middle">2 CPU</text>
+    <text x="705" y="505" text-anchor="middle">2 RAM</text>
+    <text x="835" y="470" text-anchor="middle">2 CPU</text>
+    <text x="835" y="505" text-anchor="middle">2 RAM</text>
+  </g>
+
+  <g stroke="#1f1f1f" stroke-width="4" fill="none">
+    <rect x="626" y="260" width="160" height="120"/>
+    <rect x="770" y="260" width="160" height="120"/>
+    <rect x="626" y="420" width="160" height="120"/>
+    <rect x="770" y="420" width="160" height="120"/>
+  </g>
+
+  <g fill="#1f1f1f" font-family="Verdana, Arial, sans-serif" font-size="30" font-weight="700">
+    <text x="720" y="610" text-anchor="middle">8 CPUs</text>
+    <text x="720" y="650" text-anchor="middle">8 RAM</text>
+  </g>
+
+  <g fill="#1f1f1f" font-family="Verdana, Arial, sans-serif" font-size="30" font-weight="700">
+    <text x="1170" y="340" text-anchor="middle">10 x 100 = 1000</text>
+    <text x="1170" y="505" text-anchor="middle">24 x 1000 = 24K</text>
+  </g>
+
+  <g stroke="#1f1f1f" stroke-width="4" fill="none">
+    <rect x="1090" y="230" width="240" height="300"/>
+  </g>
+
+  <g fill="#1f1f1f" font-family="Verdana, Arial, sans-serif" font-size="26" font-weight="700">
+    <text x="1440" y="250" text-anchor="middle">2400</text>
+    <text x="1440" y="630" text-anchor="middle">EC2</text>
+  </g>
+
+  <g fill="#1f1f1f" font-family="Verdana, Arial, sans-serif" font-size="28" font-weight="700">
+    <text x="240" y="760" text-anchor="middle">1. MAINTENANCE</text>
+    <text x="240" y="800" text-anchor="middle">2. HARDWARE ISSUES</text>
+    <text x="240" y="840" text-anchor="middle">3. APP HOSTING</text>
+
+    <text x="720" y="760" text-anchor="middle">1. SCALABILITY</text>
+    <text x="720" y="800" text-anchor="middle">2. FIXED HW</text>
+
+    <text x="1170" y="760" text-anchor="middle">1. COST</text>
+
+    <text x="1460" y="760" text-anchor="middle">1. LIGHT WEIGHT</text>
+    <text x="1460" y="800" text-anchor="middle">2. EASY TO MANAGE</text>
+  </g>
+
+  <g stroke="#1f1f1f" stroke-width="4" fill="none">
+    <rect x="1380" y="210" width="160" height="120"/>
+    <rect x="1380" y="370" width="160" height="120"/>
+  </g>
+</svg>
+
