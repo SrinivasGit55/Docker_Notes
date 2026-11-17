@@ -206,12 +206,6 @@ Containers are commonly used for:
 
 **Important distinction:** A Linux container does not normally contain a separate Linux kernel. It uses the host's Linux kernel while its filesystem can contain a different Linux distribution's user-space tools and libraries.
 
-### Infrastructure comparison image
-
-![Infrastructure evolution comparison](./assets/infrastructure-evolution.svg)
-
----
-
 ## 3. What Is Containerization?
 
 Containerization is the process of packaging an application with the required runtime, libraries, and other user-space dependencies so that it can run in a consistent environment.
