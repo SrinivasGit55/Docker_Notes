@@ -1,7 +1,7 @@
 # Docker – Day 1: Introduction, Architecture, Commands and Installation
 
 > **Scope:** Docker fundamentals, application architecture, containerization, Docker architecture, basic image/container commands, and Docker installation on Ubuntu and Amazon Linux.  
-> **Technical baseline:** Information checked against current Docker and AWS documentation available during November 2026.
+> **Technical baseline:** Information checked against current Docker and AWS documentation.
 
 ---
 
