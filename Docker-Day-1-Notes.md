@@ -600,6 +600,50 @@ This displays images available in the local Docker image store.
 
 ---
 
+### Install Common Utilities Inside a Container
+
+Minimal container images may not include common commands such as `ls`. On Amazon Linux, `ls` is provided by the `coreutils` package. so install them after entered into containar
+
+**Ubuntu container:**
+
+```bash
+apt-get update
+apt-get install -y coreutils findutils grep vim-tiny procps iproute2 iputils-ping curl wget tar
+```
+
+**Amazon Linux 2023 container:**
+
+```bash
+dnf install -y coreutils findutils grep vim-minimal procps-ng iproute iputils curl wget tar
+```
+
+**Amazon Linux 2 container:**
+
+```bash
+yum install -y coreutils findutils grep vim-minimal procps-ng iproute iputils curl wget tar
+```
+
+For only the `ls` command, install `coreutils`:
+
+```bash
+# Ubuntu
+apt-get update && apt-get install -y coreutils
+
+# Amazon Linux 2023
+dnf install -y coreutils
+
+# Amazon Linux 2
+yum install -y coreutils
+```
+
+Verify the command:
+
+```bash
+ls
+```
+
+These package installations change the container’s writable layer. For a repeatable setup, add the package installation to a Dockerfile.
+
 ## 11. Creating and Accessing a Container
 
 ### 11.1 Create and Start an Interactive Container
